@@ -17,14 +17,17 @@ use yii\web\View;
  */
 class LikeAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/elephantsgroup/yii2-like/assets';
+    public $sourcePath = '@vendor/elephantsgroup/eg-like/assets';
    
     public function init() {
         $this->jsOptions['position'] = View::POS_END;
         parent::init();
     }
 
-	public $css = [];
+	public $css = [
+		'css/fontawesome.min.css',
+		'css/fa-solid.min.css',
+	];
     public $js = [
 		'js/eg-like.js',
         'js/bootstrap-notify.min.js'

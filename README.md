@@ -4,12 +4,12 @@ Installation Steps:
 ===
 
 1) run
-> php composer.phar require elephantsgroup/yii2-like "*"
+> php composer.phar require elephantsgroup/eg-like "*"
 
-or add `"elephantsgroup/yii2-like": "*"` to the require section of your composer.json file.
+or add `"elephantsgroup/eg-like": "*"` to the require section of your composer.json file.
 
 2) migrate database
-> yii migrate --migrationPath=vendor/elephantsgroup/yii2-like/migrations
+> yii migrate --migrationPath=vendor/elephantsgroup/eg-like/migrations
 
 3) add like module to common configuration (common/config.php file)
 

@@ -3,7 +3,7 @@
 namespace elephantsGroup\like;
 
 /*
-	Module statistics for Yii 2
+	Module statistics for Yii2
 	Authors : Jalal Jaberi
 	Website : http://elephantsgroup.com
 	Revision date : 2016/07/09
