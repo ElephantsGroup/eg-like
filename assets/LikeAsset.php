@@ -11,14 +11,14 @@ use yii\web\AssetBundle;
 use yii\web\View;
 
 /**
- * 
+ *
  * @author Kartik Visweswaran <kartikv2@gmail.com>
  * @since 2.0
  */
 class LikeAsset extends AssetBundle
 {
     public $sourcePath = '@vendor/elephantsgroup/eg-like/assets';
-   
+
     public function init() {
         $this->jsOptions['position'] = View::POS_END;
         parent::init();
@@ -34,6 +34,6 @@ class LikeAsset extends AssetBundle
 	];
     public $depends = [
         'yii\web\JqueryAsset',
-        'yii\bootstrap\BootstrapPluginAsset',
+        // 'yii\bootstrap\BootstrapPluginAsset',
     ];
 }
